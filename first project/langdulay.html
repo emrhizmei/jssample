@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>langdulay</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Gallery Walk</a>
+        <div>
+            <a href="#">Home</a>
+            <a href="#Biography">Biography</a>
+            <a href="#VisualWorks"> Visual Works</a>
+            <a href="#Artistic">Artistic Contribution</a>
+            <a href="#test">Test</a>
+        </div>
+    </nav>
+    
+    <div class="dulay-container">
+        <button onclick="location.href='index.html'">Back to Home</button>
+        <div class="dulaycard">
+            <img src="img/Lang Dulay.png" alt="Lang Dulay">
+            <div class="content"> 
+                <p class="awardee">GAMABA Awardee (1998)<p>
+                <h1>Lang Dulay</h1>
+                <h2>Master T'boli Weaver</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="Biography">
+        <div class="card-container">
+            <div class="lang2">
+                <img src="img/lang2.png" alt="Lang Dulay">
+            </div>
+            <div class="card">
+                <h1>Biography</h1>
+                <hr>
+                <p>Lang Dulay (August 3, 1928 – April 30, 2015) was a renowned Filipino traditional weaver from Lake Sebu, South Cotabato, and a member of the T’boli people. She began weaving at the age of 12, and over time it became her life’s vocation.</p>
+                <p>Through her intricate patterns and strict adherence to traditional weaving techniques, she conveyed cultural narratives and helped preserve T’boli heritage. From childhood, she dreamed of establishing a school in her community where people could learn, refine, and perfect their traditional art.</p>
+            </div>
+            <div class="card" id="Artistic">
+                <h1> Artistic Contibutions</h1>
+                <hr>
+                <p>Lang Dulay was awarded for her perseverance in preserving the T’boli tradition of weaving T’nalak—a refined fabric made from abaca. She mastered a wide range of traditional designs, such as bulinglangit (clouds), bankiring (hair bangs), and kabangi (butterfly), each of which conveyed stories and cultural meanings rather than serving as mere decoration.</p>
+                <p>Despite the growing commercialization of T’nalak and the increasing preference for modern designs over traditional ones, Dulay remained persistent in practicing the harder, traditional way of weaving. She believed that only through this old process could the fabric truly give voice to the songs and stories passed down by her elders, ensuring that T’boli culture continued to live through her art.</p>
+            </div>
+
+            <div class="card" id="VisualWorks">
+                <h1>Visual Works</h1>
+                <hr>
+                <p>T’nalak is a refined fabric made from abaca fiber. Its production begins with stripping the abaca stem, then carefully processing the fibers into fine threads and drying them. These threads are later handwoven using the traditional methods of the T’boli people, preserving both the craftsmanship and cultural significance of the fabric.</p>
+                <div class="info-container">
+                    <div>
+                        <img src="img/t'nalak.jpg" alt="t'nalak">
+                        <h2>T'nalak</h2>
+                    </div>
+                    <div>
+                        <img src="img/bulinglangit.png" alt="Bulinglangit">
+                        <h2>Bulinglangit</h2>
+                    </div>
+                    <div>
+                        <img src="img/artwork.webp" alt="t'nalak">
+                        <h2>T'nalak</h2>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="card" id="test">
+                <h1>Test Your Knowledge</h1>
+                <hr>
+                <p>Question 1: How old was Lang Dulay when she started weaving?</p>
+                <div class="options" id="option">
+
+                    <button onclick="checkAnswer(this)">12</button>
+                    <button onclick="checkAnswer(this)">13</button> 
+                    <button onclick="checkAnswer(this)">14</button>
+                    <button onclick="checkAnswer(this)">15</button>
+                </div>
+                
+                <div class="feedback" id="feedback"></div>
+
+                 <p>Question 2: Who was Lang Dulay?</p>
+                <div class="options" id="option2">
+
+                    <button onclick="checkAnswer2(this)">Painter</button>
+                    <button onclick="checkAnswer2(this)">Teacher</button> 
+                    <button onclick="checkAnswer2(this)">Weaver</button>
+                    <button onclick="checkAnswer2(this)">Artist</button>
+                </div>
+                
+                <div class="feedback" id="feedback2"></div>
+
+                <p>Question 3: What did Lang Dulay want to build in her community?</p>
+                <div class="options" id="option3">
+
+                    <button onclick="checkAnswer3(this)">House</button>
+                    <button onclick="checkAnswer3(this)">School</button> 
+                    <button onclick="checkAnswer3(this)">Museum</button>
+                    <button onclick="checkAnswer3(this)">Park</button>
+                </div>
+                
+                <div class="feedback" id="feedback3"></div>
+
+                <div class="qr">
+                    <h3>Scan QR code to watch a video</h3>
+                    <img src="http://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://youtu.be/OmcVkVu3C3Y?si=abBLvTONlIGviKpa" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <h3>Developer</h3>
+                <p>Emrhiz Mei B. Tabios</p>
+                <p> Email: emrhizmei@gmail.com</p>
+                <p> Contact: 09762403676</p>
+            </div>
+
+            <div class="footer-container">
+                <h3>Members</h3>
+                <p>Eliana Xabriya Gumabon</p>
+                <p>Matteousz Anthony Mendez</p>
+                <p>Carlo Guarin</p>
+            </div>
+            
+            <div class="footer-container">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                 <i class="fab fa-facebook"></i></a></li>
+                 <i class="fab fa-twitter"></i></a></li>
+                 <i class="fab fa-instagram"></i></a></li>
+                 <i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        function checkAnswer(btn) {
+            var feedback = document.getElementById('feedback');
+            var buttons = btn.parentElement.getElementsByTagName("button");
+            document.getElementById('option').style.pointerEvents = "none";
+            if (btn.innerText=== '12') {
+                btn.classList.add('Correct-Answer-btn')
+                feedback.classList.add('Correct-Answer')
+                feedback.innerText= "Correct Answer!"
+            } else {
+                btn.classList.add('Incorrect-Answer-btn')
+                feedback.classList.add('Incorrect-Answer')
+                feedback.innerText= "Incorrect Answer. The correct answer is 12."
+                for (var i=0; i < buttons.length; i++){
+                    if (buttons[i].innerText === "12"){
+                        buttons[i].classList.add('Correct-Answer-btn')
+                    }
+                }
+            }
+        }
+
+        function checkAnswer2(btn) {
+            var feedback = document.getElementById('feedback2');
+            var buttons = btn.parentElement.getElementsByTagName("button");
+            document.getElementById('option2').style.pointerEvents = "none";
+            if (btn.innerText=== 'Weaver') {
+                btn.classList.add('Correct-Answer-btn')
+                feedback.classList.add('Correct-Answer')
+                feedback.innerText= "Correct Answer!"
+            } else {
+                btn.classList.add('Incorrect-Answer-btn')
+                feedback.classList.add('Incorrect-Answer')
+                feedback.innerText= "Incorrect Answer. The correct answer is Weaver."
+                for (var i=0; i < buttons.length; i++){
+                    if (buttons[i].innerText === "Weaver"){
+                        buttons[i].classList.add('Correct-Answer-btn')
+                    }
+                }
+            }
+        }
+
+        function checkAnswer3(btn) {
+            var feedback = document.getElementById('feedback3');
+            var buttons = btn.parentElement.getElementsByTagName("button");
+            document.getElementById('option3').style.pointerEvents = "none";
+            if (btn.innerText=== 'School') {
+                btn.classList.add('Correct-Answer-btn')
+                feedback.classList.add('Correct-Answer')
+                feedback.innerText= "Correct Answer!"
+            } else {
+                btn.classList.add('Incorrect-Answer-btn')
+                feedback.classList.add('Incorrect-Answer')
+                feedback.innerText= "Incorrect Answer. The correct answer is school."
+                for (var i=0; i < buttons.length; i++){
+                    if (buttons[i].innerText === "School"){
+                        buttons[i].classList.add('Correct-Answer-btn')
+                    }
+                }
+            }
+        }
+        
+        
+    </script>
+</body>
+</html>

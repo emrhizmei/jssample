@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 80px;
+    position: fixed;
+}
+
+nav > a{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   font-weight: 900;
+   color: black;
+   text-decoration: none;
+}
+
+nav > div > {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 15px;
+   font-weight: 900;
+   color: black;
+   text-decoration: none;
+   gap: 80px;
+}
+

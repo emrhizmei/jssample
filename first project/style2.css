@@ -1,0 +1,253 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 70px;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+}
+
+nav > a {
+    color: #8a5029;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+nav > div{
+    display: flex;
+    gap: 20px;
+}
+
+nav > div > a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav > div > a:hover{
+    color: #58351D;
+    font-weight: 700;
+}
+
+nav > div{
+    display: flex;
+    gap: 20px;
+}
+
+.dulay-container{
+    height: 90vh;
+    padding: 0px 60px ;
+    background: linear-gradient( 180deg, #8b4513 0%, #3a4e64 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dulay-container > button {
+    background-color: antiquewhite;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    max-width: max-content;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dulay-container > button:hover{
+    color: #e7e7e7;
+    background-color: #3a4e64;
+}
+.dulaycard {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.dulaycard > img{
+    display: block;
+    height: 400px;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+}
+
+.dulaycard > .content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white
+}
+.dulaycard > .content > .awardee{
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: 900;
+    text-align: center;
+    font-size: 18px;
+} 
+
+.dulaycard > .content > h1{
+    font-size: 50px;
+}
+
+.container{
+    background-color: #e7e7e7;
+    
+
+}
+
+.container > .card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.container > .card-container > .lang2{
+    overflow: hidden;
+}
+.container > .card-container > .lang2 > img{
+    display: block;
+    width: 80vw;
+    height: 400px;
+    background-size: cover;
+}
+
+.container > .card-container >.lang2 > img:hover{
+    transform: rotate(180deg);
+}
+.container > .card-container > .card{
+    width: 80vw;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container > .card-container > .card > h1{
+    color: #945c36;
+}
+
+.container > .card-container > .card > hr{
+    border: #945c36 1px solid;
+}
+.container > .card-container > .card > p{
+    color: #666;
+}
+
+.card > .info-container{
+    display: flex;
+}
+
+.card > .info-container > div{
+    flex-grow: 1;
+}
+.card > .info-container > div > img{
+    display: block;
+    width: 300px;
+    height: 400px;
+}
+.container > .card-container > .card > .options{
+    display: flex;
+    gap: 20px;
+}
+
+
+.container > .card-container > .card > .options > button{
+    flex-grow: 1;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: rgb(188, 186, 186) 2px solid;
+    background-color: white;
+    cursor: pointer;
+}
+.container > .card-container > .card > .options > button:hover{
+    border: black 2px solid;
+}
+.container > .card-container > .card > .qr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.feedback{
+    display: none;
+}
+
+.Correct-Answer{
+    display: block;
+    color:#2e7d32;
+}
+
+.Correct-Answer-btn {
+    color: green;
+    border: green 2px solid !important;
+    background-color: rgb(198, 249, 198) !important;
+}
+
+.Incorrect-Answer-btn{
+    border: red 2px solid !important;
+    color: red;
+    background-color: rgb(254, 203, 203) !important;
+}
+.Incorrect-Answer{
+    display: block;
+    color:red;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    height: 100px;
+    gap: 20px;
+    flex-grow: 1;
+    padding: 50px;
+    
+    
+}
+
+footer > .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: darkblue;
+}
+
+footer > .container > .footer-container{
+    flex-grow: 1;
+    text-align: center;
+}
+
+footer > .container > .footer-container > h3{
+    text-align: center;
+}
+

@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}    
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container > .left{
+    flex-grow: 1;
+    
+}
+
+.container > .left > .store {
+    padding: 20px;
+    display: none;
+}
+
+.container > .left > .store > .item-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container > .left > .store > .item-container > .item{
+    background-color: rgb(201, 220, 235);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.container > .left > .store > .item-container > .item> button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: auto;
+    width: 230px;
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+    
+}
+.container > .left > .store > .item-container > .item> button:hover{
+    background-color: black;
+}
+.container > .left > .store > .item-container > .item> img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.container > .right{
+    width: 500px;
+}   
+
+.container >.right > .card> .purchase{
+    background-color: rgb(52, 97, 99);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    display: none;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.card{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    font-weight: 900;
+}

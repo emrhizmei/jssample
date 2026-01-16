@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>langdulay</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Gallery Walk</a>
+        <div>
+            <a href="#">Home</a>
+            <a href="#Biography">Biography</a>
+            <a href="#VisualWorks"> Visual Works</a>
+            <a href="#Artistic">Artistic Contribution</a>
+            <a href="#test">Test</a>
+        </div>
+    </nav>
+    
+    <div class="dulay-container">
+        <button onclick="location.href='index.html'">Back to Home</button>
+        <div class="dulaycard">
+            <img src="img/eduardo.png"  alt="Lang Dulay">
+            <div class="content"> 
+                <p class="awardee">GAMABA Awardee<p>
+                <h1>Eduardo Mutuc</h1>
+                <h2>Filipino Metalsmith and Sculptor</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="Biography">
+        <div class="card-container">
+            <div class="lang2">
+                <img src="img/eduardo (2).jpg" alt="Lang Dulay">
+            </div>
+            <div class="card">
+                <h1>Biography</h1>
+                <hr>
+                <p>Eduardo Mutuc was born in October 12, 1949 with nine sibligs in Apalit, Pampanga. He is a known metalsmith who dedicated his life in making religious and secular works in wood, silver, and bronze. Mutuc initially worked as a farmer and later turned to woodcarving as a steady livelihood.</p>
+                <p>However, life did not go as planned, and he earned as little as ₱3.00 a day. A turning point came when he was taught how to do silver plating and Monsignor Fidelis Limcauco commissioned him to create a tabernacle. Through this opportunity, Mutuc discovered his passion for crafting artworks for cathedrals, which would later define his artistic career.</p>
+            </div>
+            <div class="card" id="Artistic">
+                <h1> Artistic Contibutions</h1>
+                <hr>
+                <p>Eduardo Mutuc is a renowned practitioner of pinukpuk, a traditional technique that involves stamping intricate embellishments onto metal. This method, is used to create decorative metal surfaces that emulate solid metal, commonly seen in images of saints and other religious artworks.</p>
+                <p>Despite the slow demand for such labor-intensive crafts, Mutuc remained committed to producing his work. He continued to draw inspiration from churches, applying sacred pieces not only to religious pieces but also to his secular artworks, demonstrating his dedication to preserving and evolving this traditional art form.</p>
+            </div>
+
+            <div class="card" id="VisualWorks">
+                <h1>Visual Works</h1>
+                <hr>
+                <p>Silver plating or pinukpuk involves stamping metals for it to have meaning design. Most of Eduardo Mutuc’s crafts are for cathedrals, churches other sacred places such as the cross, tabernacles and calado. Though, he also created secular art, he always make the church an inspiration.</p>
+                <div class="info-container">
+                    <div>
+                        <img src="img/sacred statues.avif" alt="statues">
+                        <h2>Sacred Statue</h2>
+                    </div>
+                    <div>
+                        <img src="img/cross.webp" alt="cross">
+                        <h2>Cross</h2>
+                    </div>
+                    <div>
+                        <img src="img/calado.jpg" alt="t'calado">
+                        <h2>Calado</h2>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="card" id="test">
+                <h1>Test Your Knowledge</h1>
+                <hr>
+                <p>Question 1: Where was Eduardo Mutuc born?</p>
+                <div class="options" id="option">
+
+                    <button onclick="checkAnswer(this)">Apalit</button>
+                    <button onclick="checkAnswer(this)">Manila</button> 
+                    <button onclick="checkAnswer(this)">Cebu</button>
+                    <button onclick="checkAnswer(this)">Makati</button>
+                </div>
+                
+                <div class="feedback" id="feedback"></div>
+
+                 <p>Question 2:What was Eduardo Mutuc known for?</p>
+                <div class="options" id="option2">
+
+                    <button onclick="checkAnswer2(this)">Painter</button>
+                    <button onclick="checkAnswer2(this)">Musician</button> 
+                    <button onclick="checkAnswer2(this)">Metalsmithing</button>
+                    <button onclick="checkAnswer2(this)">Artist</button>
+                </div>
+                
+                <div class="feedback" id="feedback2"></div>
+
+                <p>Question 3: What opportunity helped define his artistic career?</p>
+                <div class="options" id="option3">
+
+                    <button onclick="checkAnswer3(this)">Building houses</button>
+                    <button onclick="checkAnswer3(this)">Creating a Tabernacle</button> 
+                    <button onclick="checkAnswer3(this)">Making props</button>
+                    <button onclick="checkAnswer3(this)">Designing parks</button>
+                </div>
+                
+                <div class="feedback" id="feedback3"></div>
+
+                <div class="qr">
+                    <h3>Scan QR code to watch a video</h3>
+                    <img src="http://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.youtube.com/watch?v=sWQXqpaO-68" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <h3>Developer</h3>
+                <p>Emrhiz Mei B. Tabios</p>
+                <p> Email: emrhizmei@gmail.com</p>
+                <p> Contact: 09762403676</p>
+            </div>
+
+            <div class="footer-container">
+                <h3>Members</h3>
+                <p>Eliana Xabriya Gumabon</p>
+                <p>Matteousz Anthony Mendez</p>
+                <p>Carlo Guarin</p>
+            </div>
+            
+            <div class="footer-container">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                 <i class="fab fa-facebook"></i></a></li>
+                 <i class="fab fa-twitter"></i></a></li>
+                 <i class="fab fa-instagram"></i></a></li>
+                 <i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        function checkAnswer(btn) {
+            var feedback = document.getElementById('feedback');
+            var buttons = btn.parentElement.getElementsByTagName("button");
+            document.getElementById('option').style.pointerEvents = "none";
+            if (btn.innerText=== 'Apalit') {
+                btn.classList.add('Correct-Answer-btn')
+                feedback.classList.add('Correct-Answer')
+                feedback.innerText= "Correct Answer!"
+            } else {
+                btn.classList.add('Incorrect-Answer-btn')
+                feedback.classList.add('Incorrect-Answer')
+                feedback.innerText= "Incorrect Answer. The correct answer is Apalit."
+                for (var i=0; i < buttons.length; i++){
+                    if (buttons[i].innerText === "Apalit"){
+                        buttons[i].classList.add('Correct-Answer-btn')
+                    }
+                }
+            }
+        }
+
+        function checkAnswer2(btn) {
+            var feedback = document.getElementById('feedback2');
+            var buttons = btn.parentElement.getElementsByTagName("button");
+            document.getElementById('option2').style.pointerEvents = "none";
+            if (btn.innerText=== 'Metalsmithing') {
+                btn.classList.add('Correct-Answer-btn')
+                feedback.classList.add('Correct-Answer')
+                feedback.innerText= "Correct Answer!"
+            } else {
+                btn.classList.add('Incorrect-Answer-btn')
+                feedback.classList.add('Incorrect-Answer')
+                feedback.innerText= "Incorrect Answer. The correct answer is Metalsmithing."
+                for (var i=0; i < buttons.length; i++){
+                    if (buttons[i].innerText === "Metalsmithing"){
+                        buttons[i].classList.add('Correct-Answer-btn')
+                    }
+                }
+            }
+        }
+
+        function checkAnswer3(btn) {
+            var feedback = document.getElementById('feedback3');
+            var buttons = btn.parentElement.getElementsByTagName("button");
+            document.getElementById('option3').style.pointerEvents = "none";
+            if (btn.innerText=== 'Creating a Tabernacle') {
+                btn.classList.add('Correct-Answer-btn')
+                feedback.classList.add('Correct-Answer')
+                feedback.innerText= "Correct Answer!"
+            } else {
+                btn.classList.add('Incorrect-Answer-btn')
+                feedback.classList.add('Incorrect-Answer')
+                feedback.innerText= "Incorrect Answer. The correct answer is Creating a Tabernacle."
+                for (var i=0; i < buttons.length; i++){
+                    if (buttons[i].innerText === "Creating a Tabernacle"){
+                        buttons[i].classList.add('Correct-Answer-btn')
+                    }
+                }
+            }
+        }
+        
+        
+    </script>
+</body>
+</html>
